@@ -1,1 +1,5 @@
 Code/
+pulse/*.tdb
+pulse/cookie
+pulse/*-default-sink
+pulse/*-default-source

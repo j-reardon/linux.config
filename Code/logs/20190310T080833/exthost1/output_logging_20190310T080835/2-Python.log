@@ -1,0 +1,151 @@
+Starting Jedi Python language engine.
+
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+##########Linting Output - pylint##########
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+##########Linting Output - pylint##########
+************* Module aur_update_checker
+7,34,error,undefined-variable:Undefined variable 'aurBaseUrl'
+
+-------------------------------------------------------------------
+Your code has been rated at 2.86/10 (previous run: 10.00/10, -7.14)
+
+##########Linting Output - pylint##########
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 2.86/10, +7.14)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module aur_update_checker
+35,10,error,undefined-variable:Undefined variable 'currenVersion'
+36,27,error,undefined-variable:Undefined variable 'currenVersion'
+
+-------------------------------------------------------------------
+Your code has been rated at 6.77/10 (previous run: 10.00/10, -3.23)
+
+##########Linting Output - pylint##########
+************* Module aur_update_checker
+36,27,error,undefined-variable:Undefined variable 'currenttersion'
+
+------------------------------------------------------------------
+Your code has been rated at 8.39/10 (previous run: 6.77/10, +1.61)
+
+##########Linting Output - pylint##########
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 8.39/10, +1.61)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+

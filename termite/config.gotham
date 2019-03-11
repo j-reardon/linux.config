@@ -44,11 +44,11 @@ scrollback_lines = 10000
 foreground      = #98d1ce
 foreground_bold = #98d1ce
 cursor          = #98d1ce
-background      = rgba(10,15,20, 0.8)
+background      = rgba(10,15,20, 0.7)
 
 # black
-color0  = #888888
-color8  = #555555
+color0  = #0a0f14
+color8  = #10151b
 
 # red
 color1  = #c33027
@@ -56,11 +56,11 @@ color9  = #d26939
 
 # green
 color2  = #26a98b
-color10 = #08dd2d
+color10 = #08cc2d
 
 # yellow
-color3  = #ffb04b
-color11 = #f4c331
+color3  = #edb54b
+color11 = #245361
 
 # blue
 color4  = #195465

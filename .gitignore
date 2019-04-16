@@ -3,3 +3,9 @@ pulse/*.tdb
 pulse/cookie
 pulse/*-default-sink
 pulse/*-default-source
+chromium/*
+autostart/
+gconf/
+libinput-gestures.conf
+menus/
+

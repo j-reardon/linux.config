@@ -41,11 +41,12 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-#bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return exec termite
 
-# start vscode
-bindsym $mod+c exec code
+# launch applications
+bindsym $mod+c exec code #vscode
+bindsym $mod+w exec firefox
+bindsym $mod+Shift+w chromium
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -92,7 +93,7 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+bindsym $mod+t layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -194,6 +195,8 @@ bindsym XF86MonBrightnessDown exec "xbacklight -dec 5"
 bindsym XF86AudioRaiseVolume exec "pulsemixer --change-volume +1"
 bindsym XF86AudioLowerVolume exec "pulsemixer --change-volume -1"
 bindsym XF86AudioMute exec "pulsemixer --toggle-mute"
+bindsym XF86KbdBrightnessUp exec $HOME/.scripts/keyboard_backlight.py + 10
+bindsym XF86KbdBrightnessDown exec $HOME/.scripts/keyboard_backlight.py - 10
 
 # window borders
 default_border pixel 0
@@ -205,8 +208,13 @@ default_floating_border pixel 0
 gaps inner 10
 gaps outer 0
 
-exec eval $(ssh-agent)
+# start applications on certain workspaces at startup
+exec --no-startup-id i3-msg 'workspace 3; exec termite'
+exec --no-startup-id i3-msg 'workspace 1; exec firefox'
+
+# launch things at startup
+exec --no-startup-id  eval $(ssh-agent)
 exec --no-startup-id compton
-exec --no-startup-id feh --bg-scale ~/.wallpaper/linux-jedi.jpg
+exec --no-startup-id feh --bg-scale ~/.wallpaper/amr.jpg
 exec --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id pulseaudio
+#exec --no-startup-id libinput-gestures-setup start
